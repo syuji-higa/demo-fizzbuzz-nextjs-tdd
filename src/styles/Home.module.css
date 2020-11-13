@@ -1,0 +1,42 @@
+.container {
+  min-height: 100vh;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  width: 100%;
+  max-width: 1280px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.main {
+  width: 100%;
+  max-width: 1280px;
+}
+
+.deployItemList {
+  margin-bottom: 40px;
+}
+
+.notes {
+  padding-left: 0;
+  list-style: none;
+  color: #666;
+  font-size: 14px;
+}
+
+.notes a {
+  color: #666;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 32px;
+  }
+}
