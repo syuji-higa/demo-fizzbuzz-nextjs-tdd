@@ -7,36 +7,18 @@
   align-items: center;
 }
 
-.title {
-  width: 100%;
-  max-width: 1280px;
-  margin-bottom: 40px;
-  text-align: center;
+.input, .output {
+  display: flex;
   font-size: 24px;
+  margin: 10px 0;
 }
 
-.main {
-  width: 100%;
-  max-width: 1280px;
-}
-
-.deployItemList {
-  margin-bottom: 40px;
-}
-
-.notes {
-  padding-left: 0;
-  list-style: none;
-  color: #666;
-  font-size: 14px;
-}
-
-.notes a {
-  color: #666;
-}
-
-@media screen and (min-width: 768px) {
-  .title {
-    font-size: 32px;
-  }
+.inputFaild, .outputFaild {
+  display: block;
+  width: 200px;
+  height: 40px;
+  padding: 0 10px;
+  margin-left: 10px;
+  border: 3px solid #999;
+  font-size: 24px;
 }
